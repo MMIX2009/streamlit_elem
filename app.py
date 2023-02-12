@@ -34,5 +34,5 @@ if st.session_state["photo"] == "done":
       st.image(camera_photo)
     else:
       st.image(uploaded_photo)
- else:
+else:
   pass
