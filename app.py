@@ -20,7 +20,7 @@ if uploaded_photo:
   
 col3.metric(label="Temperature", value="60 °C", delta="-3 °C")
 
-with st.exapander('Click to learn more'):
+with st.expander('Click to learn more'):
   st.write('Hello, here are more details on this topic that you are interested in.')
   
   if uploaded_photo is None:
