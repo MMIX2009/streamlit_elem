@@ -15,7 +15,7 @@ def change_photo_state():
 uploaded_photo = col2.file_uploader("Upload an image", on_change=change_photo_state)
 camera_photo = col2.camera_input("Take a picture", on_change=change_photo_state)
 
-if st.session_state["photo"] == "done"
+if st.session_state["photo"] == "done":
   progress_bar = col2.progress(0);
 
   for perc_completed in range(100):
