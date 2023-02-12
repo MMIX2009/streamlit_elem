@@ -25,5 +25,5 @@ with st.exapander('Click to learn more'):
   
   if uploaded_photo is None:
     st.image(camera_photo)
-   else:
+  else:
     st.image(uploaded_photo)
