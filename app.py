@@ -17,5 +17,7 @@ for perc_completed in range(100):
   
 if uploaded_photo:
   col2.success("Photo uploaded sucessfully!")
+  
+col3.metric(label="Temperature", value="60 °C", delta="3 °C")
 
 
