@@ -12,7 +12,7 @@ camera_photo = col2.camera_input("Take a picture")
 progress_bar = col2.progress(0);
 
 for perc_completed in range(100):
-  time.sleep(0.5)
+  time.sleep(0.05)
   progress_bar.progress(perc_completed +1)
   
 if uploaded_photo != null:
